@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0e2454;
+    color: #ffffff;
+}
+.cuerpo{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    border: 2px solid pink;
+}
+.producto{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+.producto .imagen{
+    width: 120px;
+    height: 140px;
+}
+.producto #nombreProducto{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
