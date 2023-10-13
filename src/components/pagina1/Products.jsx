@@ -9,6 +9,8 @@ const Product = () =>{
 
     useEffect(() => {axios.get('https://fakestoreapi.com/products').then(resp => {
     console.log("dentro de useEffect:",resp.data);
+    console.log("dentro de useEffect:",resp);
+
     setProducto(resp.data)
     })},[filtro])
     
